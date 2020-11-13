@@ -1,0 +1,7 @@
+{
+  "token": "bot token here",
+  "prefix": "prefix here",
+  "bot_name": "bot name here",
+  "description": "Place your bot description here",
+  "log_channel": 000000000000000000 //Put the channel ID that you want log output to go to.
+}
