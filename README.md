@@ -1,5 +1,5 @@
 # Python Discord Bot Project Template
-#####Author: CryosisOS
+Author: CryosisOS
 
 ### Default commands:
 - ping
