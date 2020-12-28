@@ -7,6 +7,7 @@ import json
 from discord.ext import commands
 
 # Project Imports
+from objects.API import API
 from objects.Bot import Bot, BotConfiguration
 from utils.Logger import log
 import commands.Commands as Commands
@@ -28,6 +29,8 @@ def __main__():
     Commands.register(bot)
     Events.register(bot)
     bot.DISCORD_API.run(bot.CONFIGURATION.token)
+    api = API(bot)
+    api.start_server()
 
 
 if __name__ == '__main__':

@@ -78,3 +78,7 @@ def register(bot: Bot):
         # ... function code
 ```
 The format for adding a new event is the same for adding a new command.
+
+### Requirements:
+- discord.py 1.5.1: https://pypi.org/project/discord.py/
+- Flask 1.1.2: https://pypi.org/project/Flask/
